@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C387CCD42C87809000617125 /* AnimateEverythingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387CCD32C87809000617125 /* AnimateEverythingApp.swift */; };
-		C387CCD62C87809000617125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387CCD52C87809000617125 /* ContentView.swift */; };
+		C387CCD62C87809000617125 /* AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C387CCD52C87809000617125 /* AnimatedTextView.swift */; };
 		C387CCD82C87809200617125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C387CCD72C87809200617125 /* Assets.xcassets */; };
 		C387CCDC2C87809200617125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C387CCDB2C87809200617125 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		C387CCD02C87809000617125 /* AnimateEverything.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimateEverything.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C387CCD32C87809000617125 /* AnimateEverythingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateEverythingApp.swift; sourceTree = "<group>"; };
-		C387CCD52C87809000617125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C387CCD52C87809000617125 /* AnimatedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTextView.swift; sourceTree = "<group>"; };
 		C387CCD72C87809200617125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C387CCD92C87809200617125 /* AnimateEverything.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AnimateEverything.entitlements; sourceTree = "<group>"; };
 		C387CCDB2C87809200617125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				C387CCD32C87809000617125 /* AnimateEverythingApp.swift */,
-				C387CCD52C87809000617125 /* ContentView.swift */,
+				C387CCD52C87809000617125 /* AnimatedTextView.swift */,
 				C387CCD72C87809200617125 /* Assets.xcassets */,
 				C387CCD92C87809200617125 /* AnimateEverything.entitlements */,
 				C387CCDA2C87809200617125 /* Preview Content */,
@@ -139,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C387CCD62C87809000617125 /* ContentView.swift in Sources */,
+				C387CCD62C87809000617125 /* AnimatedTextView.swift in Sources */,
 				C387CCD42C87809000617125 /* AnimateEverythingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimateEverythingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AnimatedTextView()
         }
     }
 }
